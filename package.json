@@ -1,0 +1,19 @@
+{
+  "name": "protonemedia-form-components-pro-docs",
+  "version": "0.0.1",
+  "description": "A set of Vue components to rapidly build forms with Tailwind CSS (v1.0 and v2.0) and Bootstrap 4. Supports validation, model binding, default values, includes default vendor styling and fully customizable!",
+  "main": "index.js",
+  "authors": {
+    "name": "Pascal Baljet",
+    "email": "pascal@protone.media"
+  },
+  "repository": "protonemedia/form-components-pro-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

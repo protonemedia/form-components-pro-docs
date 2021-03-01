@@ -1,0 +1,3 @@
+# Custom templates
+
+In the repository, you'll find the unstyled [templates](https://github.com/protonemedia/form-components-pro/tree/main/src/form-components-pro-vue2-template/src) to build your own components. These templates use the `@protonemedia/form-components-pro-vue2-core` package, which holds all the scripts. The easiest way to get started, is by copying the templates to your project, and apply your own styling. Of course, you could also get started by using one of the other repositories.
