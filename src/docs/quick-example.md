@@ -1,6 +1,6 @@
 # Quick example
 
-In the example below you'll find [two-way binding on the Form Component](/guide/reactivity.html#use-v-model-on-the-form-component), [validation error evaluation](/guide/validation.html#errors-per-form), integration with [Autosize, Choices.js and Litepicker](/guide/integration.html), and the [Group component](/guide/misc.html#group-component).
+In the example below you'll find [two-way binding on the Form Component](/docs/reactivity.html#use-v-model-on-the-form-component), [validation error evaluation](/docs/validation.html#errors-per-form), integration with [Autosize, Choices.js and Litepicker](/docs/integration.html), and the [Group component](/docs/misc.html#group-component).
 
 ```js
 <template>
