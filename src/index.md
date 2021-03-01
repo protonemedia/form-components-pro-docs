@@ -4,4 +4,4 @@ tagline: A set of Vue components to rapidly build forms with Tailwind CSS (v1.0 
 actionText: Documentation →
 actionLink: /docs/
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DBronijhDac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube-nocookie.com/embed/DBronijhDac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
