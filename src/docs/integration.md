@@ -1,7 +1,5 @@
 # Integrations with third-party Libaries
 
-Currently, all three libraries are included in the bundle *by default*. This will be fixed before the first public release.
-
 ## Autosize
 
 Add the `autosize` attribute to the `Textarea` component:

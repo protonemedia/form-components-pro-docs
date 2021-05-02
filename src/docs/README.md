@@ -2,7 +2,7 @@
 
 ## Features
 
-* Components for input, textarea, select, multi-select, checkbox and radio elements.
+* Components for input, textarea, file, multi-file, select, multi-select, checkbox and radio elements.
 * Support for Tailwind v2 with [Tailwind Forms](https://tailwindcss-forms.vercel.app/).
 * Support for Vue 2.6.
 * Component scripts independent from templates. All templates use the same logic.

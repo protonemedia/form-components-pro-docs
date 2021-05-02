@@ -51,6 +51,7 @@ module.exports = {
             'reactivity',
             'validation',
             'select',
+            'inertia',
             'integration',
             'misc',
             'customization',

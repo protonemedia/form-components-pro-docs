@@ -2,14 +2,7 @@
 
 Make sure you've installed the [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms) plugin correctly.
 
-In your project's root folder, create a `.npmrc` file and fill in your [Personal Access Token](https://github.com/settings/tokens) with access to the `read:packages` scope.
-
-```
-//npm.pkg.github.com/:_authToken=your-personal-access-token
-@protonemedia:registry=https://npm.pkg.github.com
-```
-
-Now you can install the package with `npm` or `yarn`:
+You can install the package with `npm` or `yarn`:
 
 ```bash
 npm install @protonemedia/form-components-pro-vue2-tailwind2-unstyled
@@ -39,6 +32,7 @@ import "./assets/style.css";
 import {
   Checkbox,
   Form,
+  File,
   Group,
   Input,
   Radio,
@@ -49,6 +43,7 @@ import {
 
 Vue.component('Checkbox', Checkbox);
 Vue.component('Form', Form);
+Vue.component('File', File);
 Vue.component('Group', Group);
 Vue.component('Input', Input);
 Vue.component('Radio', Radio);
@@ -78,6 +73,7 @@ Instead of registering the components globally, you can also choose to define th
 import {
   Checkbox,
   Form,
+  File,
   Group,
   Input,
   Radio,
@@ -90,6 +86,7 @@ export default {
   components: {
     Checkbox,
     Form,
+    File,
     Group,
     Input,
     Radio,
