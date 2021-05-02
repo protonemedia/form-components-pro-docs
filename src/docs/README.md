@@ -10,4 +10,4 @@
 * Validation errors.
 * Support for [autosize](https://github.com/jackmoore/autosize)
 * Support for [Choices.js](https://github.com/jshjohnson/Choices)
-* Support for [Litepicker](https://github.com/wakirin/litepicker/)
+* Support for [Flatpickr](https://flatpickr.js.org)

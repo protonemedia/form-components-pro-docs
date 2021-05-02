@@ -54,7 +54,6 @@ module.exports = {
             'integration',
             'misc',
             'customization',
-            'roadmap',
           ]
         }
       ],

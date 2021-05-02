@@ -10,7 +10,15 @@ Add the `autosize` attribute to the `Textarea` component:
 <Textarea name="biography" autosize />
 ```
 
-## Litepicker
+## Flatpickr
+
+Flatpickr uses a *Stylus* stylesheet to style the library. Our stylesheet extends the vendor stylesheet (of Flatpickr) and adds some Tailwind-specific tweaks. Make sure your bundler handles Stylus stylesheets correctly.
+
+You can import the stylesheet in your Vue component:
+
+```js
+import "@protonemedia/form-components-pro-vue2-tailwind2-unstyled/src/flatpickr.styl"
+```
 
 Add the `date` attribute to the `Input` component:
 
@@ -18,10 +26,16 @@ Add the `date` attribute to the `Input` component:
 <Input name="published_at" date />
 ```
 
-You can instantiate Litepicker with a [custom set of options](https://litepicker.com/docs/options) by passing an object to the `date` attribute:
+You can instantiate Flatpickr with a [custom set of options](https://flatpickr.js.org/options/) by passing an object to the `date` attribute:
 
 ```html
-<Input name="published_at" :date="{ format: 'YYYY' }" />
+<Input name="published_at" :date="{ dateFormat: 'm-d-Y' }" />
+```
+
+Add the `date` *and* `time` attribute to the `Input` component to get a timepicker as well:
+
+```html
+<Input name="published_at" date time />
 ```
 
 ## Choices.js
