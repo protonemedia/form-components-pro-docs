@@ -19,11 +19,13 @@ Available packages for Vue.js 2 + Tailwind v2:
 
 Add the repository path to the `purge` array of your [Tailwind configuration file](https://tailwindcss.com/docs/optimizing-for-production#basic-usage). This ensures that the styling also works on production builds.
 
+```js
 module.exports = {
   purge: [
     './node_modules/@protonemedia/**/*.{js,vue}',
   ]
 }
+```
 
 ## Register components
 
