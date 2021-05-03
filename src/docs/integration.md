@@ -10,7 +10,7 @@ Add the `autosize` attribute to the `Textarea` component:
 
 ## Flatpickr
 
-Flatpickr uses a *Stylus* stylesheet to style the library. Our stylesheet extends the vendor stylesheet (of Flatpickr) and adds some Tailwind-specific tweaks. Make sure your bundler handles Stylus stylesheets correctly.
+Flatpickr uses a *Stylus* stylesheet to style the library. Our stylesheet extends the vendor stylesheet (of Flatpickr) and adds some Tailwind-specific tweaks. Make sure your bundler handles Stylus stylesheets correctly, for example, by installing `stylus` and `stylus-loader`.
 
 You can import the stylesheet in your Vue component:
 
@@ -34,6 +34,12 @@ Add the `date` *and* `time` attribute to the `Input` component to get a timepick
 
 ```html
 <Input name="published_at" date time />
+```
+
+If you *only* want a timepicker, you can discard the `date` attribute, and pass custom Flatpickr options to the `time` attribute:
+
+```html
+<Input name="published_at" time />
 ```
 
 ## Choices.js

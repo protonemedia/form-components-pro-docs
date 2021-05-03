@@ -1,6 +1,6 @@
 ---
 home: true
-tagline: A set of Vue components to rapidly build forms with Tailwind CSS (v1.0 and v2.0) and Bootstrap 4. Supports validation, model binding, includes default vendor styling and fully customizable!
+tagline: A set of Vue components to rapidly build forms with Tailwind CSS v2.0. Supports validation, model binding, includes default vendor styling and fully customizable!
 actionText: Documentation →
 actionLink: /docs/
 ---

@@ -1,4 +1,4 @@
-# Select elements
+# Select element
 
 You can give the `Select` component a set of options that is either an Array or an Object. If you go with an Object, it should be a simple *key-value* collection. An Array should consists of one or more objects that have a `value` and `label` key.
 

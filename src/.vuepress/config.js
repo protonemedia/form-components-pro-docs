@@ -32,7 +32,7 @@ module.exports = {
     docsDir: 'src',
     docsBranch: 'main',
     editLinkText: '',
-    lastUpdated: true,
+    lastUpdated: false,
     nav: [
       {
         text: 'Documentation',
@@ -50,8 +50,9 @@ module.exports = {
             'installation',
             'reactivity',
             'validation',
-            'select',
             'inertia',
+            'select',
+            'file',
             'integration',
             'misc',
             'customization',
