@@ -15,6 +15,16 @@ Available packages for Vue.js 2 + Tailwind v2:
 * `@protonemedia/form-components-pro-vue2-tailwind2-underline`
 * `@protonemedia/form-components-pro-vue2-tailwind2-solid`
 
+## Tailwind configuration
+
+Add the repository path to the `purge` array of your [Tailwind configuration file](https://tailwindcss.com/docs/optimizing-for-production#basic-usage). This ensures that the styling also works on production builds.
+
+module.exports = {
+  purge: [
+    './node_modules/@protonemedia/**/*.{js,vue}',
+  ]
+}
+
 ## Register components
 
 To start using the components, you need to [register](https://vuejs.org/v2/guide/components-registration.html) the components. You can do this globally for your Vue.js app or per component.
